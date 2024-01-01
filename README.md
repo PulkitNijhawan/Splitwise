@@ -57,7 +57,7 @@ python run.py
 ![Alt Text](./Architecture.png)
 
 ## Database
-![Alt Text](./E-R diagram.drawio.png)
+![Alt Text](./E-R%20diagram.drawio.png)
 
 ## APIs
 
