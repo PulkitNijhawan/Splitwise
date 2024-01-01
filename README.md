@@ -6,10 +6,10 @@ Splitwise is an application to help users split bills and expenses among friends
 
 - Requirements
 - Installation
-- Configuration
-- Troubleshooting
-- FAQ
-- Maintainers
+- Architecture
+- Database
+- Classes
+- Open Issues
 
 ## Requirements
 
@@ -54,10 +54,10 @@ python run.py
 ```
 
 ## Architecture
-![Alt Text](Architecture.drawio.png)
+![Alt Text](./Architecture.png)
 
 ## Database
-![Alt Text](E-R diagram.drawio.png)
+![Alt Text](./E-R diagram.drawio.png)
 
 ## APIs
 
