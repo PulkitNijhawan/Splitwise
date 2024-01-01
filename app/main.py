@@ -22,9 +22,6 @@ class BaseView(MethodView):
     success_message: str = None
 
     def handle_request(self, request_data: dict) -> tuple[Response, HTTPStatus]:
-        import pdb
-
-        pdb.set_trace()
         try:
             validated_data = self.request_schema.load(
                 {**request_data, **request.view_args}
